@@ -3,8 +3,7 @@ function fullName(firstName, lastName) {
 
     // Check ifeither name is missing
     if (!firstName || !lastName) {
-        return "Invalid name input.";
-    }
+        return "Invalid name input.";   }
 
 
      // Capitalize  first name
