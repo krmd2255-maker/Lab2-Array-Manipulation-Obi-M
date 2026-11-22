@@ -13,3 +13,9 @@ function calculateTotalCost(price, quantity, taxRate) {
 
     //Return total cost
     return totalCost; }
+
+// results of calculation function
+console.log(calculateTotalCost(10, 3, 0.06));
+console.log(calculateTotalCost(40, 8, 0.04));
+console.log(calculateTotalCost("thirty", 5, 0.09));
+console.log(calculateTotalCost(200, 4, 0.10));
