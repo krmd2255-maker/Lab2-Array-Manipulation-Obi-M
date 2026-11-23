@@ -16,7 +16,8 @@ function removeLastItem() {
 
 // Display the shopping list
 function displayList() {
-    console.log(shoppingList); }
+    console.log(shoppingList); 
+}
 
 
 
